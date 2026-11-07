@@ -25,4 +25,11 @@ Open: http://localhost:5000
 Writing a Dockerfile, Docker Compose, port mapping, non-root containers, and cloud deployment.
 
 ## Screenshots
-Screenshots will be added here.
+<img width="1366" height="768" alt="final web dy  2 " src="https://github.com/user-attachments/assets/200ead5e-78b0-4b4a-bc2a-e2d778e2f889" />
+## Author
+
+**Sania Arooj**
+BS Computer Science | Codomax Intern
+GitHub: [saniabmw6-glitch](https://github.com/saniabmw6-glitch)
+
+
