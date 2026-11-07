@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Tracker</title>
+    <style>
+        body { font-family: Arial; max-width: 500px; margin: 50px auto; }
+        li { margin: 8px 0; }
+        a { color: red; text-decoration: none; margin-left: 10px; }
+    </style>
+</head>
+<body>
+    <h1>My Task Tracker</h1>
+    <form action="/add" method="POST">
+        <input type="text" name="task" placeholder="Enter a task" required>
+        <button type="submit">Add</button>
+    </form>
+    <ul>
+        {% for task in tasks %}
+        <li>{{ task }} <a href="/delete/{{ loop.index0 }}">Delete</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
